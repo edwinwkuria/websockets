@@ -1,0 +1,851 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Ngenx\.nuget\packages\;C:\Microsoft\Xamarin\NuGet\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.7.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.bundle.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js.map" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js.map')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.bundle.js.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.bundle.min.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js.map" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js.map')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.bundle.min.js.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.js" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.js')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.js.map" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.js.map')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.js.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.min.js" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.min.js')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.min.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.min.js.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_alert.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_alert.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_alert.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_badge.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_badge.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_badge.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_breadcrumb.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_breadcrumb.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_breadcrumb.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_button-group.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_button-group.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_button-group.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_buttons.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_buttons.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_buttons.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_card.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_card.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_card.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_carousel.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_carousel.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_carousel.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_close.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_close.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_close.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_code.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_code.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_code.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_custom-forms.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_custom-forms.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_custom-forms.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_dropdown.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_dropdown.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_dropdown.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_forms.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_forms.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_forms.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_functions.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_functions.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_functions.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_grid.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_grid.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_grid.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_images.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_images.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_images.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_input-group.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_input-group.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_input-group.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_jumbotron.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_jumbotron.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_jumbotron.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_list-group.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_list-group.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_list-group.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_media.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_media.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_media.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_mixins.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_mixins.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_mixins.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_modal.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_modal.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_modal.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_nav.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_nav.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_nav.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_navbar.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_navbar.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_navbar.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_pagination.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_pagination.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_pagination.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_popover.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_popover.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_popover.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_print.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_print.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_print.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_progress.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_progress.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_progress.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_reboot.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_reboot.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_reboot.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_root.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_root.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_root.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_spinners.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_spinners.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_spinners.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_tables.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_tables.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_tables.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_toasts.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_toasts.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_toasts.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_tooltip.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_tooltip.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_tooltip.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_transitions.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_transitions.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_transitions.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_type.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_type.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_type.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_utilities.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_utilities.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_utilities.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_variables.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\_variables.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\_variables.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\bootstrap-grid.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\bootstrap-grid.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\bootstrap-grid.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\bootstrap-reboot.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\bootstrap-reboot.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\bootstrap-reboot.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\bootstrap.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\bootstrap.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\bootstrap.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_alert.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_alert.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_alert.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_background-variant.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_background-variant.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_background-variant.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_badge.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_badge.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_badge.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_border-radius.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_border-radius.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_border-radius.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_box-shadow.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_box-shadow.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_box-shadow.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_breakpoints.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_breakpoints.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_breakpoints.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_buttons.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_buttons.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_buttons.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_caret.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_caret.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_caret.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_clearfix.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_clearfix.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_clearfix.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_deprecate.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_deprecate.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_deprecate.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_float.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_float.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_float.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_forms.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_forms.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_forms.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_gradients.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_gradients.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_gradients.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_grid-framework.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_grid-framework.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_grid-framework.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_grid.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_grid.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_grid.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_hover.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_hover.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_hover.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_image.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_image.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_image.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_list-group.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_list-group.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_list-group.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_lists.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_lists.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_lists.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_nav-divider.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_nav-divider.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_nav-divider.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_pagination.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_pagination.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_pagination.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_reset-text.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_reset-text.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_reset-text.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_resize.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_resize.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_resize.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_screen-reader.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_screen-reader.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_screen-reader.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_size.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_size.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_size.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_table-row.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_table-row.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_table-row.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_text-emphasis.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_text-emphasis.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_text-emphasis.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_text-hide.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_text-hide.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_text-hide.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_text-truncate.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_text-truncate.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_text-truncate.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_transition.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_transition.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_transition.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_visibility.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\mixins\_visibility.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\mixins\_visibility.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_align.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_align.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_align.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_background.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_background.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_background.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_borders.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_borders.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_borders.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_clearfix.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_clearfix.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_clearfix.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_display.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_display.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_display.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_embed.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_embed.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_embed.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_flex.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_flex.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_flex.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_float.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_float.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_float.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_interactions.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_interactions.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_interactions.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_overflow.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_overflow.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_overflow.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_position.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_position.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_position.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_screenreaders.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_screenreaders.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_screenreaders.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_shadows.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_shadows.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_shadows.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_sizing.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_sizing.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_sizing.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_spacing.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_spacing.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_spacing.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_stretched-link.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_stretched-link.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_stretched-link.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_text.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_text.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_text.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_visibility.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\utilities\_visibility.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\utilities\_visibility.scss</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\vendor\_rfs.scss" Condition="Exists('$(NuGetPackageRoot)bootstrap.sass\4.6.0\contentFiles\any\any\wwwroot\scss\vendor\_rfs.scss')">
+      <NuGetPackageId>bootstrap.sass</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\scss\vendor\_rfs.scss</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-grid.css" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-grid.css')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\css\bootstrap-grid.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-grid.css.map" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-grid.css.map')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\css\bootstrap-grid.css.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\css\bootstrap-grid.min.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css.map" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css.map')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\css\bootstrap-grid.min.css.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\css\bootstrap-reboot.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css.map" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css.map')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\css\bootstrap-reboot.css.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\css\bootstrap-reboot.min.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css.map" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css.map')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\css\bootstrap-reboot.min.css.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap.css" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap.css')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\css\bootstrap.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap.css.map" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap.css.map')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\css\bootstrap.css.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap.min.css" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap.min.css')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\css\bootstrap.min.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap.min.css.map" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\css\bootstrap.min.css.map')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\css\bootstrap.min.css.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.bundle.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js.map" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.js.map')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.bundle.js.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.bundle.min.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js.map" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.bundle.min.js.map')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.bundle.min.js.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.js" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.js')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.js.map" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.js.map')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.js.map</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.min.js" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.min.js')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.min.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map" Condition="Exists('$(NuGetPackageRoot)bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map')">
+      <NuGetPackageId>bootstrap</NuGetPackageId>
+      <NuGetPackageVersion>4.6.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\js\bootstrap.min.js.map</Link>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\Ngenx\.nuget\packages\jquery\3.0.0</PkgjQuery>
+  </PropertyGroup>
+</Project>

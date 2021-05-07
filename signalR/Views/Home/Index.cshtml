@@ -1,0 +1,86 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <form>
+        <input type="text" name="name" id="name" class="form-control" />
+        @*<button onclick="submitForm()" class="btn btn-success">Submit</button>*@
+    </form>
+    <button class="btn btn-success" id="myBtn">Submit</button>
+
+    <div class="list-group">
+        <div class="list-group" id="messageList">
+            <a href="#" class="list-group-item list-group-item-action">Messages <span style="color:white;" class="badge bg-secondary rounded-pill" id="badgeId"></span></a>
+        </div>
+    </div>
+
+    <div class="list-group" id="messageList">
+    </div>
+    <script>
+        document.getElementById("myBtn").addEventListener("click", submitForm, false);
+        var ws = new WebSocket('wss://localhost:44367/ws');
+
+        var number = 0;
+
+        ws.onmessage = function (event) {
+            //alert("onmessage event: " + event.data);
+            addMessage(JSON.parse(event.data));
+        }
+        ws.onopen = function (event) {
+            // ws.send("Start");
+            alert("onopen event: " + event.data);
+        }
+
+        ws.onclose = function () {
+            alert("closed");
+        }
+        ws.onerror = function () {
+            alert("error");
+        }
+
+        function submitForm() {
+            let name = document.getElementById("name").value;
+            var person = {
+                id: 15,
+                sender: "Mueni",
+                date: new Date(),
+                message: name
+            };
+            addMessage(person);
+            console.log(person);
+            ws.send(JSON.stringify(person));
+        }
+        //function addMessage(message) {
+        //    number++;
+        //    div = document.getElementById('messageList');
+        //    badge = document.getElementById('badgeId');
+
+        //    newlink = document.createElement('a');
+        //    newlink.setAttribute('class', 'list-group-item list-group-item-action');
+        //    newlink.setAttribute('href', '#');
+
+        //    var node = document.createTextNode(message);
+        //    var badgeNo = document.createTextNode(number);
+        //    badge.appendChild(badgeNo);
+        //    newlink.appendChild(node);
+        //    div.appendChild(newlink);
+        //}
+
+        function addMessage(messageObject) {
+            
+            console.log(messageObject);
+            var newitem = `<a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">${messageObject.sender}</h5>
+                    <small class="text-muted">${messageObject.date}</small>
+                </div>
+                <p class="mb-1">${messageObject.message}</p>
+                <small class="text-muted">EDMS Chat</small>
+            </a>`;
+
+            document.getElementById("messageList").innerHTML += newitem;
+    }
+
+
+    </script>
