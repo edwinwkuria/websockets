@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "EDMS Chat";
+}
+
+<form>
+    <label>Sender Id<span style="color:white;" class="badge bg-secondary rounded-pill" id="badgeId"></span></label><br/>
+    <label>Message</label>
+    <input type="text" name="message" id="message" class="form-control" />
+    <label>Receiver Id</label>
+    <input type="number" name="receiverId" id="receiverId" class="form-control" />
+    @*<button onclick="submitForm()" class="btn btn-success">Submit</button>*@
+</form>
+<button class="btn btn-success" id="myBtn">Submit</button>
+
+<div class="list-group">
+    <div class="list-group" id="messageList">
+        <a href="#" class="list-group-item list-group-item-action">Messages <span style="color:white;" class="badge bg-secondary rounded-pill" id="badgeId"></span></a>
+    </div>
+</div>
+
+<div class="list-group" id="messageList">
+</div>
+
+<script>
+    document.getElementById("myBtn").addEventListener("click", submitForm, false);
+    var ws = new WebSocket('ws://192.168.0.134:90/edmschat');
+    var random = Math.floor(Math.random() * 10) + 1;
+
+    var number = 0;
+
+    ws.onmessage = function (event) {
+        //alert("onmessage event: " + event.data);
+        addMessage(JSON.parse(event.data));
+    }
+    ws.onopen = function (event) {
+        ws.send(random);
+        setBadge();
+        //alert("onopen event: " + event.data);
+    }
+
+    ws.onclose = function () {
+        alert("closed");
+    }
+    ws.onerror = function () {
+        alert("error");
+    }
+
+    function submitForm() {
+        let message = document.getElementById("message").value;
+        let receiverId = document.getElementById("receiverId").value;
+        var person = {
+            id: 15,
+            sender: null,
+            senderId: random,
+            receiver: null,
+            receiverId: receiverId,
+            date: new Date(),
+            message: message
+        };
+        //addMessage(person);
+        console.log(person);
+        ws.send(JSON.stringify(person));
+        $('#message').val("");
+    }
+
+    function addMessage(messageObject) {
+
+        console.log(messageObject);
+        var newitem = `<a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">${messageObject.sender}</h5>
+                    <small class="text-muted">${messageObject.date}</small>
+                </div>
+                <p class="mb-1">${messageObject.message}</p>
+                <small class="text-muted">EDMS Chat</small>
+            </a>`;
+
+        document.getElementById("messageList").innerHTML += newitem;
+        
+    }
+
+    function setBadge() {
+        badge = document.getElementById('badgeId');
+        var badgeNo = document.createTextNode(random);
+        badge.appendChild(badgeNo);
+
+    }
+
+    
+</script>

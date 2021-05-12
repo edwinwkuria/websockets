@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "35Exc8o3mw4omEHEuCURL1CiWveF/gZQuU4+cJ4g1snbxX/M/Kc6GQKMmblSh6f7dBXKzMcP0UjsIcOjsFmEaQ==",
+  "dgSpecHash": "WXbgawkQ2GmVlSQIOO9HTixXpNI16INo/yRU1QIh70CursBJ/URbYBowsVypCgKoQ1mOkQiP6OnbAovkz+gkHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ngenx\\source\\repos\\signalR\\signalR.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\Ngenx\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Ngenx\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\Ngenx\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512",
+    "C:\\Users\\Ngenx\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\Ngenx\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Ngenx\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
     "C:\\Users\\Ngenx\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",

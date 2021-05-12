@@ -19,7 +19,7 @@
     </div>
     <script>
         document.getElementById("myBtn").addEventListener("click", submitForm, false);
-        var ws = new WebSocket('wss://localhost:44367/ws');
+        var ws = new WebSocket('ws://192.168.0.134:90/ws');
 
         var number = 0;
 
@@ -35,7 +35,8 @@
         ws.onclose = function () {
             alert("closed");
         }
-        ws.onerror = function () {
+        ws.onerror = function (event) {
+            console.log(event)
             alert("error");
         }
 

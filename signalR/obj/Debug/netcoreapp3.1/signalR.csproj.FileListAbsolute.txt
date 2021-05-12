@@ -35,5 +35,7 @@ C:\Users\Ngenx\source\repos\signalR\obj\Debug\netcoreapp3.1\signalR.csproj.CopyC
 C:\Users\Ngenx\source\repos\signalR\obj\Debug\netcoreapp3.1\signalR.dll
 C:\Users\Ngenx\source\repos\signalR\obj\Debug\netcoreapp3.1\signalR.pdb
 C:\Users\Ngenx\source\repos\signalR\obj\Debug\netcoreapp3.1\signalR.genruntimeconfig.cache
+C:\Users\Ngenx\source\repos\signalR\obj\Debug\netcoreapp3.1\Razor\Views\Chat\Index.cshtml.g.cs
+C:\Users\Ngenx\source\repos\signalR\bin\Debug\netcoreapp3.1\RestSharp.dll
 C:\Users\Ngenx\source\repos\signalR\obj\Debug\netcoreapp3.1\signalR.csproj.CoreCompileInputs.cache
 C:\Users\Ngenx\source\repos\signalR\obj\Debug\netcoreapp3.1\signalR.MvcApplicationPartsAssemblyInfo.cache
